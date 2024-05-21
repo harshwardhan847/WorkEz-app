@@ -40,7 +40,7 @@ class FullScreenWebView extends StatelessWidget {
                 child: InAppWebView(
                     initialUrlRequest: URLRequest(
                         url: WebUri(
-                            'https://work-ease-kappa.vercel.app/signIn')),
+                            'https://work-ease-kappa.vercel.app/employee')),
                     androidOnGeolocationPermissionsShowPrompt:
                         (InAppWebViewController controller,
                             String origin) async {
